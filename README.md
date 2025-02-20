@@ -1,4 +1,5 @@
 # Open-table
+npx expo start
 npx react-native init 
 DinnerSchedulerApp
 ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​npm install @react-native-firebase/app 
