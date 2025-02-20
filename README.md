@@ -1,4 +1,28 @@
 # Open-table
+npx react-native init 
+DinnerSchedulerApp
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​npm install @react-native-firebase/app 
+@react-native-firebase/auth @react-native-firebase/firestore react-native-calendars react-native-contacts
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{
+  "uid": "unique_user_id",
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​{
+  "id": "dinner_id",
+  "date": "2024-10-15",
+  "host": "host_user_id",
+  "seats": 5,
+  "host_provisions": ["Pizza", "Salad"],
+  "invitees": [
+    { "userId": "friend_user_id", "status": "pending" }  // or "accepted", "declined"
+  ],
+  "guest_contributions": [
+    { "userId": "friend_user_id", "contribution": "Drinks" }
+  ]
+}
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
