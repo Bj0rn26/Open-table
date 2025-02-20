@@ -1,4 +1,6 @@
 # Open-table
+npm install -g eas-cli
+eas build:configure
 npx expo start
 npx react-native init 
 DinnerSchedulerApp
